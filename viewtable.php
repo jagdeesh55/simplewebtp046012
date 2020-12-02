@@ -25,11 +25,11 @@
                     $conn = sqlsrv_connect($serverName, $connectionInfo);
                     if(!$conn)
                     {
-                        die ("Error connection: ".sqlsrv_errors());
+                            die ("Error connection: ".sqlsrv_errors());
                     }
                     else
                     {
-                        echo "<script>alert('Success!');</script>";
+                        echo"<script>alert('Success!');</script>";
                     }
                 ?>
             </table>
